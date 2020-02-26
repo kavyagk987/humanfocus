@@ -1,6 +1,42 @@
-/* Navbar */
+/* navbar section */
 
-.navbar-brand{
-	text-transform: uppercase;
-	font-weight:900;
+.homepage-section{
+	padding-right: 8px;
+}
+
+/* jumbotron section */
+
+.jumbotron-section{
+	padding: 60px;
+	background-color: #f5b041;
+
+}
+
+/* card page */
+
+.card-section{
+    padding: 60px;
+	background-color: coral;
+}
+
+/* body color */
+.body-section{
+	background-color: coral;
+}
+
+.head-section{
+	padding:60px;
+	
+}
+
+.cards-section{
+	padding: 60px;
+}
+
+.color-section{
+	background-color: #17A589;
+}
+
+.notification-section{
+	padding-left: 8px;
 }
