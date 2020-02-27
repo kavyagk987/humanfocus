@@ -8,15 +8,15 @@
 
 .jumbotron-section{
 	padding: 60px;
-	background-color: #f5b041;
+	
 
 }
 
 /* card page */
 
 .card-section{
-    padding: 60px;
-	background-color: coral;
+    padding: 30px;
+	background-color: #D5E7CC;
 }
 
 /* body color */
@@ -25,8 +25,8 @@
 }
 
 .head-section{
-	padding:60px;
-	
+	padding: 60px;
+	margin: auto;
 }
 
 .cards-section{
@@ -34,7 +34,7 @@
 }
 
 .color-section{
-	background-color: #17A589;
+	background-color: #B8C2B9;
 }
 
 .notification-section{
@@ -43,15 +43,18 @@
 
 
 .fromc{
+    background-color: #E8ECB4;
 	margin: auto;
 }
 
-.spacing{
-	width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+ .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+  
+  .logout{
+	margin: auto;
 }
+  
