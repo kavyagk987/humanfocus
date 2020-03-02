@@ -7,16 +7,14 @@
 /* jumbotron section */
 
 .jumbotron-section{
-	padding: 60px;
-	
-
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 /* card page */
 
 .card-section{
-    padding: 30px;
-	background-color: #D5E7CC;
+    padding-top: 60px;
 }
 
 /* body color */
@@ -30,7 +28,8 @@
 }
 
 .cards-section{
-	padding: 60px;
+	padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .color-section{
@@ -58,3 +57,17 @@
 	margin: auto;
 }
   
+  .space{
+	  padding-top: 60px;
+  }
+
+.heading-section{
+    padding-top: 60px;
+	background-color: #D5E7CC;
+}
+
+.title-section{
+    padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #D5E7CC;
+}
