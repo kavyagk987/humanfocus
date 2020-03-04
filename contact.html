@@ -14,34 +14,35 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
 crossorigin="anonymous">
 <link rel="stylesheet" href="css/custom.css">
 <script src="https://kit.fontawesome.com/74bc13a396.js" crossorigin="anonymous"></script>
-
-
+<link rel="shortcut icon" type="image/png" href="image/hlogo.jpg"/>
 <title>Human Focus About Us</title>
 </head>
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">LOGO</a>
+<a class="navbar-brand" href="#">Human focus</a>
+  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
+	  
         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="stationaries.html">Services</a>
       </li>
-	  <li class="nav-item active">
-        <a class="nav-link" href="#">Blog</a>
+	  <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blog</a>
       </li>
-	  <li class="nav-item active">
+	  <li class="nav-item">
         <a class="nav-link" href="about.html">About</a>
       </li>
 	  <li class="nav-item active">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>
       <li class="nav-item homepage-section">
         <a class="btn btn-light btn-sm" href="sign.html" role="button">Log In</a>
@@ -73,23 +74,20 @@ crossorigin="anonymous">
     </style>
     <!-- Custom styles for this template -->
     <link href="form-validation.css" rel="stylesheet">
-  </head>
+ 
   <body class="bg-light">
-    <div class="container">
-  <div class="text-center">
+    <div class="container text-center">
+  
     <img class="d-block mx-auto mb-4" src="/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
     <h1>Contact</h1>
-    </div>
-
-
-  <div class="row cards-section">
+    
+<div class="row cards-section">
     <div class="col-md-4 order-md-2 mb-4">
       <h4 class="d-flex justify-content-between align-items-center mb-3">
         <span class="text-unmuted">For support</span>
         </h4>
       <ul class="list-group mb-3">
-        
-          <form>
+        <form>
   <div class="form-group row">
     <label for="staticEmail" class="col-sm-2 col-form-label">Name:</label>
     <div class="col-sm-10">
@@ -97,7 +95,7 @@ crossorigin="anonymous">
     </div>
   </div>
   </form>
-            <form>
+    <form>
   <div class="form-group row">
     <label for="staticEmail" class="col-sm-2 col-form-label">Email:</label>
     <div class="col-sm-10">
@@ -105,13 +103,12 @@ crossorigin="anonymous">
     </div>
   </div>
   </form>
-        </ul>
-		<h4 class="d-flex justify-content-between align-items-center mb-3">
+   </ul>
+   <h4 class="d-flex justify-content-between align-items-center mb-3">
         <span class="text-unmuted">For sales</span>
         </h4>
       <ul class="list-group mb-3">
-        
-          <form>
+        <form>
   <div class="form-group row">
     <label for="staticEmail" class="col-sm-2 col-form-label">Name:</label>
     <div class="col-sm-10">
@@ -133,50 +130,51 @@ crossorigin="anonymous">
 		
    
 
-   <div class="col-md-8 order-md-1">
-      
-      <form class="needs-validation" novalidate>
-        <div class="row">
-          <div class="col-md-8 mb-3">
-            
-            <input type="text" class="form-control" id="name" placeholder="Name" value="" required>
-            <div class="invalid-feedback">
-              Valid first name is required.
-            </div>
-          </div>
-          
-		  
-		  <div class="col-md-8 mb-3">
-            
-            <input type="text" class="form-control" id="email" placeholder="Email" value="" required>
-            <div class="invalid-feedback">
-              Valid first name is required.
-            </div>
-          </div>
-        
-		
-				  <div class="col-md-8 mb-3">
-            
-            <input type="text" class="form-control" id="phone" placeholder="Phone" value="" required>
-            <div class="invalid-feedback">
-              Valid first name is required.
-            </div>
-          </div>
-       </div>
-	   <div class="col-md-8 mb-3">
-        <div class="form-group">
-           <textarea class="form-control" id="exampleFormControlTextarea1"  placeholder="Message" rows="3"></textarea>
-          </div>
-        </div>
-       
-        <div class="col-md-8 mb-3">
+ <div class="col-md-8 order-md-1">
+<div class="row">
+         <div class="col-md-8 mb-3">
+<form action="" method="post" role="form" class="contactForm">
+<div class="form-group">
+<input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+<div class="validation"></div>
+</div>
+<div class="form-group">
+<input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
+<div class="validation"></div>
+</div>
+<div class="form-group">
+<input type="text" class="form-control" name="subject" id="subject" placeholder="Phone" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+<div class="validation"></div>
+</div>
+<div class="form-group">
+<textarea class="form-control" name="message" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+<div class="validation"></div>
+</div> 
         <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
-		</div>
-      </form>
-    </div>
-  </div>
+	</form>
+</div>
+</div>
+</div>
+</div>
+</div>
 
- 
+<div class="container cards-section">
+<div class="row">
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+</div>
+</div>
 
 
 <footer class="pt-4 my-md-5 pt-md-5 border-top">
@@ -213,9 +211,9 @@ crossorigin="anonymous">
       <div class="col-6 col-md">
         <h5>Organization</h5>
         <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">About</a></li>
-          <li><a class="text-muted" href="#">Blog</a></li>
-          <li><a class="text-muted" href="#">Contact</a></li>
+          <li><a class="text-muted" href="about.html">About</a></li>
+          <li><a class="text-muted" href="blog.html">Blog</a></li>
+          <li><a class="text-muted" href="contact.html">Contact</a></li>
           <li><a class="text-muted" href="#">FAQ</a></li>
         </ul>
       </div>
