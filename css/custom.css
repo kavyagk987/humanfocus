@@ -63,11 +63,15 @@
 
 .heading-section{
     padding-top: 60px;
-	background-color: #D5E7CC;
+	
 }
 
 .title-section{
     padding-top: 60px;
 	padding-bottom: 60px;
 	background-color: #D5E7CC;
+}
+
+.table{
+	padding:60px;
 }
