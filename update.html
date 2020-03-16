@@ -36,11 +36,17 @@
         </li>
 	    </ul>
 	  </div>
-	    <img src="image/bell.png" alt="" width="32" height="32" title="Notification">
-        <li class="nav-item">
-          <img src="image/profile.png" alt="" width="32" height="32" title="Profile">
-        </li>
-    </nav>
+    <li class="nav-item dropdown">
+      <img src="image/bell.png" alt="" width="32" height="32" title="Notification">
+      <a class="btn btn-primary btn-sm" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Profile
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">View</a>
+        <a class="dropdown-item" href="logout.html">Logout</a>
+      </div>
+    </li>
+  </nav>
    
    
    
@@ -117,7 +123,7 @@
           <h5>Organization</h5>
           <ul class="list-unstyled text-small">
           <li><a class="text-muted" href="about.html">About</a></li>
-          <li><a class="text-muted" href="blog.html">Blog</a></li>
+          <li><a class="text-muted" href="blogindex.html">Blog</a></li>
           <li><a class="text-muted" href="contact.html">Contact</a></li>
           <li><a class="text-muted" href="#">FAQ</a></li>
           </ul>
